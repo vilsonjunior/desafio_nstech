@@ -8,7 +8,7 @@ class informacoesPage {
 
     preencherInformacoes() {
         this.elements.nomeInput().type('Vilson')
-        this.elements.sobrenomeInput().type('Teste Vox')
+        this.elements.sobrenomeInput().type('Teste nstech')
         this.elements.cepInput().type('12345-678')
         this.elements.continueButton().click()
     }
