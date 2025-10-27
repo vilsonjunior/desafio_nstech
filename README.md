@@ -13,7 +13,8 @@ Desafio Tecnico - QA Sr
 
  então, o report dos testes processados são alocados na pasta "reports\html, onde é possível visualizar o resultado no arquivo "index.html"
 
- ![Exemplo de report](cypress/reports/exemplo_report.png)
+ ![alt text](image.png)
+
 
 ### Casos de Testes
 
