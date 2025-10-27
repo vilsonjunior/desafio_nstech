@@ -13,7 +13,7 @@ Desafio Tecnico - QA Sr
 
  Então, o report dos testes processados são alocados na pasta "reports\html, onde é possível visualizar o resultado no arquivo "index.html"
 
- ![alt text](image-1.png)
+ ![alt text](image-2.png)
 
 
 ### Casos de Testes
