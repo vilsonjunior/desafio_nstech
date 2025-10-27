@@ -9,9 +9,9 @@ Desafio Tecnico - QA Sr
 
  Após a execução dos cenários, caso o comando utilizado seja o de:
 
- npx cypress run
+ ```npx cypress run```
 
- então, o report dos testes processados são alocados na pasta "reports\html, onde é possível visualizar o resultado no arquivo "index.html"
+ Então, o report dos testes processados são alocados na pasta "reports\html, onde é possível visualizar o resultado no arquivo "index.html"
 
  ![alt text](image.png)
 
