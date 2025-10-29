@@ -1,4 +1,4 @@
-![Teste CI](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml/badge.svg)(https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml)
+![Teste CI][def](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml)
 
 
 # desafio_nstech
@@ -34,3 +34,5 @@ Ferramentas utilizadas no projeto:
 - [Node.js](https://nodejs.org/en/)
 - [Cypress](https://www.cypress.io/)
 - [JavaScript](https://www.javascript.com/)
+
+[def]: https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml/badge.svg
