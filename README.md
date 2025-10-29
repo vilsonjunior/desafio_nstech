@@ -1,5 +1,6 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vilsonjunior/desafio_nstech/CI?label=build)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vilsonjunior/desafio_nstech/npm-publish-github-packages.yml?branch=main)
 
+<!-- https://img.shields.io/github/actions/workflow/status/<user>/<repo>/npm-publish-github-packages.yml?branch=main -->
 
 # desafio_nstech
 Desafio Tecnico - QA Sr
