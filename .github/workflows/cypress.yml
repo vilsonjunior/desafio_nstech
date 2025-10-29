@@ -12,7 +12,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v3
         with:
-          project: ./cypress
+          # project: ./cypress
           browser: chrome
           start: npx cypress run
           wait-on: "http://localhost:3000"
