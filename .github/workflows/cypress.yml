@@ -5,7 +5,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:     
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
+
+      - name: Node
+        uses: actions/setup-node@v1
+        with:
+            node-version: 22.15.0
+
+      - name: Dependencias
+        run: 
+          npm install
 
       - name: Cypress run
-        run: npx cypress run
+        uses: cypress-io/github-action@v6
+        # run: 
+        #   npx cypress run
