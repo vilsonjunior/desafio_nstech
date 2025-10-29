@@ -3,16 +3,23 @@ name: E2E on Chrome
 on: [push]
 
 jobs:
-  install:
-    runs-on: ubuntu-latest
+  basic:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, ubuntu-24.04, windows-2025, macos-15]
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Cypress run
-        uses: cypress-io/github-action@v3
+      - name: Cypress tests
+        uses: ./ # if copying, replace with cypress-io/github-action@v6
+        # the parameters below are only necessary
+        # because we are running these examples in a monorepo
         with:
-          # project: ./cypress
-          browser: chrome
-          start: npx cypress run
-          wait-on: "http://localhost:3000"
+          # working-directory: examples/basic
+          # just for full picture after installing Cypress
+          # print information about detected browsers, etc
+          # see https://on.cypress.io/command-line#cypress-info
+          build: npx cypress info

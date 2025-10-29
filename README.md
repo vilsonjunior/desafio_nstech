@@ -1,6 +1,6 @@
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vilsonjunior/desafio_nstech/workflows/npm-publish-github-packages.yml?branch=main)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vilsonjunior/desafio_nstech/workflows/cypress.yml?branch=main)
 
-[![Vault Demo](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/npm-publish-github-packages.yml)
+[![Vault Demo](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress.yml)
 
 
 
