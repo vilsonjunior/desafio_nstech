@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vilsonjunior/desafio_nstech/npm-publish-github-packages.yml?branch=main)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vilsonjunior/desafio_nstech/npm-publish-github-packages.yml?branch=main)
 
 <!-- https://img.shields.io/github/actions/workflow/status/<user>/<repo>/npm-publish-github-packages.yml?branch=main -->
 
