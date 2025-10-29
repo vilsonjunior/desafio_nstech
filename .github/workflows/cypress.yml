@@ -1,36 +1,19 @@
-name: CI/CD Pipeline
-on: 
- push:
-  branches:
-      - main
+name: E2E on Chrome
+
+on: [push]
 
 jobs:
-  test:
+  install:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Cypress run
+        uses: cypress-io/github-action@v3
         with:
-          node-version: 18.x
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build the Next.js app
-        run: npm run build
-
-      - name: Run Cypress Tests
-        uses: cypress-io/github-action@v6
-        with:
-          start: npm start
+          project: ./site
           browser: chrome
-
-      - name: Upload Screenshots
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          path: cypress/screenshots
+          build: yarn build
+          start: yarn start
+          wait-on: "http://localhost:3000"
