@@ -2,8 +2,6 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vilsonjunior/desafio_nstech/CI?label=build)
 
-# cypress-io/github-action [![Action status][ci-badge]][ci-workflow] [![cypress][cloud-badge]][cloud-project] [![renovate-app badge][renovate-badge]][renovate-bot]
-
 
 # desafio_nstech
 Desafio Tecnico - QA Sr
