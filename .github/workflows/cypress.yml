@@ -2,9 +2,27 @@ name: End-to-end tests
 on: push
 jobs:
   cypress-run:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+
+      - name: Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '24'
+
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Dependências
+        run: npm install
+
+      - name: Executa aplicação
+        run: |
+          nohup npm start & 
+          npx wait-on http:/localhost:3000
+
       - name: Cypress run
-        uses: cypress-io/github-action@v6
+        run: npx cypress run
