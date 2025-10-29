@@ -1,4 +1,4 @@
-[![Teste CI](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/main.yml/badge.svg)](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/main.yml)
+![Teste CI](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml/badge.svg)(https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml)
 
 
 # desafio_nstech
