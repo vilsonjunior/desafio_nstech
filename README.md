@@ -1,3 +1,6 @@
+[![Teste CI](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/main.yml/badge.svg)](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/main.yml)
+
+
 # desafio_nstech
 Desafio Tecnico - QA Sr
 
