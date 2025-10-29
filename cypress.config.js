@@ -15,4 +15,5 @@ module.exports = defineConfig({
   reporterOptions: {
     charts: true,    
   },
+  video: true,
 });
