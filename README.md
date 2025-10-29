@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflows/status/vilsonjunior/desafio_nstech/CI?label=build)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vilsonjunior/desafio_nstech/CI?label=build)
 
 
 # desafio_nstech
