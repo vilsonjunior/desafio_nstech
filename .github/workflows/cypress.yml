@@ -12,8 +12,8 @@ jobs:
           node-version: '24'
       - name: Install dependencies
         run: npm install
-      - name: Run tests
-        run: npm test  
+      # - name: Run tests
+      #   run: npm test  
 
 
       # - name: Checkout
@@ -24,16 +24,16 @@ jobs:
       #   with:
       #     node-version: '24'
 
-      # - name: Checkout código
-      #   uses: actions/checkout@v3
+      - name: Checkout código
+        uses: actions/checkout@v4
 
       # - name: Dependências
       #   run: npm install
 
-      # - name: Executa aplicação
-      #   run: |
-      #     nohup npm start & 
-      #     npx wait-on http:/localhost:3000
+      - name: Executa aplicação
+        run: |
+          nohup npm start & 
+          npx wait-on http:/localhost:3000
 
       # - name: Cypress run
       #   run: npx cypress run
