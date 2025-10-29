@@ -1,5 +1,7 @@
 [![Teste CI](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml/badge.svg)](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress-tests.yml)
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vilsonjunior/desafio_nstech/CI?label=build)
+
 
 
 # desafio_nstech
