@@ -1,10 +1,7 @@
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vilsonjunior/desafio_nstech/workflows/cypress.yml?branch=main)
+<!-- ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vilsonjunior/desafio_nstech/workflows/cypress.yml?branch=main)
 
-[![Vault Demo](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress.yml)
+[![Vault Demo](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/vilsonjunior/desafio_nstech/actions/workflows/cypress.yml) -->
 
-
-
-<!-- https://img.shields.io/github/actions/workflow/status/<user>/<repo>/npm-publish-github-packages.yml?branch=main -->
 
 # desafio_nstech
 Desafio Tecnico - QA Sr
