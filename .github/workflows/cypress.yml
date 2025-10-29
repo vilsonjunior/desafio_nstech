@@ -1,25 +1,22 @@
-name: E2E on Chrome
+name: Cypress Tests
 
 on: [push]
 
 jobs:
-  basic:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-22.04, ubuntu-24.04, windows-2025, macos-15]
-    runs-on: ${{ matrix.os }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+  cypress-run:
+    runs-on: ubuntu-latest
 
-      - name: Cypress tests
-        uses: ./ # if copying, replace with cypress-io/github-action@v6
-        # the parameters below are only necessary
-        # because we are running these examples in a monorepo
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          # working-directory: examples/basic
-          # just for full picture after installing Cypress
-          # print information about detected browsers, etc
-          # see https://on.cypress.io/command-line#cypress-info
-          build: npx cypress info
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Cypress tests
+        run: npx cypress run
