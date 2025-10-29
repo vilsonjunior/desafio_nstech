@@ -3,37 +3,9 @@ on: push
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-
     steps:     
-      - uses: actions/checkout@v4
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-      - name: Install dependencies
-        run: npm install
-      # - name: Run tests
-      #   run: npm test  
-
-
-      # - name: Checkout
-      #   uses: actions/checkout@v3
-
-      # - name: Node
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: '24'
-
-      - name: Checkout código
+      - name: Checkout
         uses: actions/checkout@v4
 
-      # - name: Dependências
-      #   run: npm install
-
-      - name: Executa aplicação
-        run: |
-          nohup npm start & 
-          npx wait-on http:/localhost:3000
-
-      # - name: Cypress run
-      #   run: npx cypress run
+      - name: Cypress run
+        run: npx cypress run
